@@ -1,0 +1,21 @@
+#dadosCabecalhoServidor{
+    padding: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    display: none;
+}
+#subcabecalho{
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+@media print {
+    .navbar, .sidebar, .divNavLinks, #btEditar, #btPrint{
+        display: none;
+    }
+    #formFiltro, #ulMenuDados, hr{
+        display: none !important;
+    }
+    #dadosCabecalhoServidor{
+        display: block;
+    }
+}

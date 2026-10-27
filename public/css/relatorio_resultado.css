@@ -1,0 +1,17 @@
+#dataRelatorio{
+    display: none;
+    font-size: 0.6em;
+}
+#cabecalhoRelatorio{
+    display: none;
+}
+@media print {
+
+    .navbar, .sidebar, .divNavLinks, #btPrint, .tituloSeccao, #btBack {
+        display: none;
+    }
+    #cabecalhoRelatorio{
+        display: block;
+    }
+
+}

@@ -1,0 +1,27 @@
+.navbar-default{
+    background-color: #212121 !important;
+}
+.navbar-default .navbar-brand{
+    font-weight: bold !important;
+    color: #FFF !important;
+}
+.btn-primary{
+    background-color: #212121 !important;
+    border-color: #2E2E2E !important;
+}
+.imgLogo{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.panel-default{
+    border-color: #a9a9a9 !important;
+}
+.panel-default>.panel-heading{
+    border-color: #a9a9a9 !important;
+    text-align: center;
+    background-color: #bdbdbd !important;
+}
+.panel-default>.panel-heading{
+    font-weight: bold !important;
+}

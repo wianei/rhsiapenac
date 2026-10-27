@@ -1,0 +1,92 @@
+
+.m-l-15{
+    margin-left: 15px;
+}
+.m-l-05{
+    margin-left: 5px;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.m-t-20{
+    margin-top: 20px;
+}
+.height80per{
+    height: 80%;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+#cabecalhoRelatorio{
+    display: none;
+}
+.pesquisaServidorRelatorio{
+    float: right;
+    margin-top: -2.4em;
+}
+#addFone{
+    float: right;
+    margin-top: -1.15em;
+    font-size: 1.8em;
+    margin-right: 0.3em;
+    color: #0d47a1;
+}
+.remove_field{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+.tituloSeccao{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+.cf:after{
+    clear:both;
+}
+.cf{
+    *zoom:1;
+}
+.bt-ver{
+    background-color: #28a745;
+    padding: 0.3em 0.6em;
+    color: #f8f9fa;
+}
+.bt-funcional{
+    background-color: #795548;
+    padding: 0.3em 0.6em;
+    color: #f8f9fa;
+}
+.bt-editar{
+    background-color: #004085;
+    padding: 0.3em 0.6em;
+    color: #f8f9fa;
+}
+.bt-ver:hover{
+    background-color: #238d3d;
+    color: #f8f9fa;
+}
+.bt-funcional:hover{
+    background-color: #5d4037;
+    color: #f8f9fa;
+}
+.bt-editar:hover{
+    background-color: #002d5a;
+    color: #f8f9fa;
+}
+.plr1em{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.plr1_4em{
+    padding-left: 1.4em !important;
+    padding-right: 1.4em !important;
+}
+
+

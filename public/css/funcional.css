@@ -1,0 +1,377 @@
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+.cf:after{
+    clear:both;
+}
+.cf{
+    *zoom:1;
+}
+
+body div{
+    font-family: Arial;
+    font-size: 0.26cm;
+    font-weight: bold;
+    border: 1px solid #fff !important;
+}
+.funcional{
+    width: 18.2cm;
+    height: 15.8cm;
+    border: 1px solid red;
+    /*margin-top: -75em; */
+    z-index: 8;
+    position: relative;
+    text-transform: uppercase;
+}
+.pt1{
+    border: 1px solid red;
+    width: 7.41cm;
+    height: 9.26cm;
+    float: left;
+}
+.nome{
+    border: 1px solid red;
+    width: 6.24cm;
+    height: 0.5cm;
+    margin-top: 0.18cm;
+    margin-left: 0.37cm;
+    padding-top: 0.079cm;
+    line-height: 0.23cm;
+    padding-left: 0.079cm;
+}
+.fotoDados{
+    border: 1px solid red;
+    margin-left: 0.37cm;
+    width: 6.32cm;
+    margin-top: 1cm;
+    height: 0.34cm;
+}
+.foto{
+    border: 1px solid red;
+    width: 2.91cm;
+    height: 3.41cm;
+    float: left;
+}
+.numero{
+    border: 1px solid red;
+    width: 2.83cm;
+    height: 0.42cm;
+    padding-top: 0.13cm;
+    padding-left: 0.079cm;
+    float: right;
+}
+.matricula{
+    border: 1px solid red;
+    width: 2.83cm;
+    height: 0.42cm;
+    padding-top: 0.13cm;
+    padding-left: 0.079cm;
+    float: right;
+}
+.cpf{
+    border: 1px solid red;
+    width: 2.83cm;
+    height: 0.42cm;
+    padding-top: 0.13cm;
+    padding-left: 0.079cm;
+    float: right;
+}
+.rg{
+    border: 1px solid red;
+    width: 2.83cm;
+    height: 0.42cm;
+    padding-top: 0.13cm;
+    padding-left: 0.079cm;
+    float: right;
+    line-height: 0.23cm;
+}
+.pt2{
+    border: 1px solid red;
+    width: 27em;
+    height: 35em;
+    float: right;
+}
+.naturalidade{
+    border: 1px solid red;
+    margin-top: 4em;
+    height: 1.9em;
+    padding-top: 0.3em;
+    margin-left: 1.3em;
+    width: 14.6em;
+    padding-left: 0.3em;
+    float: left;
+    line-height: 0.9em;
+}
+.nacimento{
+    border: 1px solid red;
+    float: right;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-top: 4em;
+    margin-right: 1.3em;
+    width: 8.2em;
+    padding-left: 0.3em;
+}
+.grupoSanguineo{
+    border: 1px solid red;
+    margin-top: 0.7em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 14.8em;
+    float: left;
+    text-align: center;
+}
+.fatorRh{
+    border: 1px solid red;
+    float: right;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-top: 0.7em;
+    margin-right: 1.3em;
+    width: 8.2em;
+    padding-left: 0.3em;
+}
+.alergiaS{
+    border: 1px solid red;
+    margin-top: 0.7em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 4em;
+    float: left;
+    text-align: center;
+}
+.alergiaN{
+    border: 1px solid red;
+    float: right;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-top: 0.7em;
+    margin-right: 10em;
+    width: 4em;
+    text-align: center;
+}
+.localDataExp{
+    border: 1px solid red;
+    margin-top: 0.7em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 24.2em;
+    padding-left: 0.3em;
+    float: left;
+}
+.assSec{
+    border: 1px solid red;
+    margin-top: 3.6em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 24.5em;
+    float: left;
+}
+.codBarra{
+    border: 1px solid red;
+    margin-top: 4.3em;
+    height: 4.6em;
+    margin-left: 1.3em;
+    width: 10.5em;
+    float: left;
+}
+
+body .tamanho{
+    width: 15.5cm;
+    height: 10cm;
+}
+
+@media print and (width: 15.5cm) and (height: 10cm) {
+    @page {
+        margin: 0;
+    }
+}
+/*
+body div{
+    font-family: Arial;
+    font-weight: bold;
+    border: 1px solid #fff !important;
+}
+.funcional{
+    width: 868px;
+    height: 600px;
+    border: 1px solid red;
+    z-index: 8;
+    position: relative;
+    text-transform: uppercase;
+}
+.pt1{
+    border: 1px solid red;
+    width: 27em;
+    height: 35em;
+    float: left;
+}
+.nome{
+    border: 1px solid red;
+    width: 23.6em;
+    height: 1.9em;
+    margin-top: 7em;
+    margin-left: 1.4em;
+    padding-top: 0.3em;
+    line-height: 0.9em;
+    padding-left: 0.3em;
+}
+.fotoDados{
+    border: 1px solid red;
+    margin-left: 1.4em;
+    width: 23.9em;
+    margin-top: 3.8em;
+    height: 13em;
+}
+.foto{
+    border: 1px solid red;
+    width: 11em;
+    height: 12.9em;
+    float: left;
+}
+.numero{
+    border: 1px solid red;
+    width: 10.7em;
+    height: 1.6em;
+    padding-top: 0.5em;
+    padding-left: 0.3em;
+    float: right;
+}
+.matricula{
+    border: 1px solid red;
+    width: 10.7em;
+    height: 1.6em;
+    padding-top: 0.5em;
+    padding-left: 0.3em;
+    float: right;
+    margin-top: 0.7em;
+}
+.cpf{
+    border: 1px solid red;
+    width: 10.7em;
+    height: 1.6em;
+    padding-top: 0.5em;
+    padding-left: 0.3em;
+    float: right;
+    margin-top: 0.7em;
+}
+.rg{
+    border: 1px solid red;
+    width: 10.7em;
+    height: 1.6em;
+    padding-top: 0.7em;
+    padding-left: 0.3em;
+    float: right;
+    margin-top: 0.7em;
+    line-height: 0.9em;
+}
+.pt2{
+    border: 1px solid red;
+    width: 27em;
+    height: 35em;
+    float: right;
+}
+.naturalidade{
+    border: 1px solid red;
+    margin-top: 4em;
+    height: 1.9em;
+    padding-top: 0.3em;
+    margin-left: 1.3em;
+    width: 14.6em;
+    padding-left: 0.3em;
+    float: left;
+    line-height: 0.9em;
+}
+.nacimento{
+    border: 1px solid red;
+    float: right;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-top: 4em;
+    margin-right: 1.3em;
+    width: 8.2em;
+    padding-left: 0.3em;
+}
+.grupoSanguineo{
+    border: 1px solid red;
+    margin-top: 0.7em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 14.8em;
+    float: left;
+    text-align: center;
+}
+.fatorRh{
+    border: 1px solid red;
+    float: right;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-top: 0.7em;
+    margin-right: 1.3em;
+    width: 8.2em;
+    padding-left: 0.3em;
+}
+.alergiaS{
+    border: 1px solid red;
+    margin-top: 0.7em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 4em;
+    float: left;
+    text-align: center;
+}
+.alergiaN{
+    border: 1px solid red;
+    float: right;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-top: 0.7em;
+    margin-right: 10em;
+    width: 4em;
+    text-align: center;
+}
+.localDataExp{
+    border: 1px solid red;
+    margin-top: 0.7em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 24.2em;
+    padding-left: 0.3em;
+    float: left;
+}
+.assSec{
+    border: 1px solid red;
+    margin-top: 3.6em;
+    height: 1.7em;
+    padding-top: 0.5em;
+    margin-left: 1.3em;
+    width: 24.5em;
+    float: left;
+}
+.codBarra{
+    border: 1px solid red;
+    margin-top: 4.3em;
+    height: 4.6em;
+    margin-left: 1.3em;
+    width: 10.5em;
+    float: left;
+}
+
+body .tamanho{
+    width: 15.5cm;
+    height: 10cm;
+}
+
+@media print{
+    body.tamanho{
+        width: 15.5cm;
+    }
+}

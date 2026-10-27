@@ -1,0 +1,9 @@
+.ml-4em{
+    margin-left: 4em;
+}
+.d-flex{
+    display: flex;
+}
+#coordCADM, #coordCOAPE, #coordCEPAM, #coordCODEM, #coordCOEPPIR, #coordCORDE, #coordOUVIDORIA, #coordPROCON, #coordSEJUV, #coordOUTROS, #coordCEDIDOS{
+    display: none;
+}

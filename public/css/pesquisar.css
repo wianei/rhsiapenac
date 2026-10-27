@@ -1,0 +1,54 @@
+#filtroIcon{
+    cursor:  pointer;
+}
+.link{
+    background-color: #5e666f !important;
+    color: #FFF !important;
+}
+.link:hover{
+    background-color: #212529 !important;
+}
+
+#links li {
+    display: inline !important;
+    font-size: 16px !important;
+}
+
+#links li a {
+    color: #fff !important;
+    padding: 8px 10px !important;
+    text-decoration: none !important;
+    transition: background-color .3s !important;
+    border: 1px solid #ddd !important;
+    background-color: #5e666f !important;
+}
+
+
+#links li.active {
+    padding: 1px 1px !important;
+    color: white !important;
+}
+
+#links li a:hover {
+    background-color: #c8c8c8 !important;
+}
+
+#links li.disabled {
+    color: #fff !important;
+    padding: 1px 1px !important;
+    border: 1px solid #ddd !important;
+}
+.pagination{
+    display: inline-flex !important;
+    margin-top: 4em !important;
+}
+#divPesAvancada{
+    width: 100%;
+    display: none;
+}
+.dFlex{
+    display: flex !important;
+}
+.dContents{
+    display: contents !important;
+}

@@ -1,0 +1,88 @@
+.mTop-3em{
+    margin-top: 3em;
+}
+.fichaGlobal{
+    font-size: 1.1em;
+}
+.fichaGlobal h5{
+    margin-bottom: 0.1em;
+    margin-top: 1.5em;
+}
+.col-3{
+    margin-top: 0.2em !important;
+}
+.divNavLinks{
+    margin-bottom: 1em;
+}
+
+.colorGray{
+    color: gray;
+}
+
+.colorCreme{
+    color: #f8f8f8;
+}
+
+.colorBlue{
+    color: #007bff;
+}
+
+.botaoRelatorio {
+    color: white !important;
+}
+
+.iconeRelatorio {
+    font-size: 2em;
+}
+
+.eventoRevogado{
+    text-decoration: line-through;
+    color: #b5b5b5;
+}
+
+.tituloHistorico{
+    margin-top: 0.80em;
+    padding-left: 0.7em;
+    width: 90% !important;
+    float: left;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+#formAddArquivo{
+    display: none;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#divMesAno{
+    display: none;
+}
+#divTitulo{
+    display: none;
+}
+#divTipoLicenca{
+    display: none;
+}
+
+#divData {
+    display: none;
+}
+#divAfastamento{
+    display: none;
+}
+#divConcessao{
+    display: none;
+}
+
+#divTipoPenalidade {
+    display: none;
+}
+
+#divLotacao {
+    display: none;
+}
+
+@media print {
+    .navbar, .sidebar, .divNavLinks, #btEditar{
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
+.tituloNavBar{
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+}
+.imageLogo{
+    float: left;
+    margin-right: 10px;
+    width: 35px;
+}
+
+.bg-primary{
+    background-color: #212529!important;
+}
+
+.bg-dark {
+    background-color: #212529!important;
+}
+.btnFixed{
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+.remove_dependente{
+    float: right;
+    margin-top: -1.28em;
+    margin-right: 0.3em;
+    font-size: 1.5em;
+    color: #CC0000;
+}
+
+.btnFile {
+    display: initial;
+    cursor: pointer;
+}
+
+.fontSize05em{
+    font-size: 0.5em;
+}
+.fontSize1em{
+    font-size: 1em;
+}
+.fontSize04em{
+    font-size: 0.4em;
+}
+
+.fontSize03em{
+    font-size: 0.3em;
+}
+
+.fontSize02em{
+    font-size: 0.2em;
+}
+
+.fontSize01em{
+    font-size: 0.1em;
+}
+.colorFFF{
+    color: #fff;
+}
+.ulMenuDados{
+    list-style: none;
+}
+.liMenuShow{
+    padding: 0.7em 1.5em;
+    border: 1px solid #d6d6d6;
+    font-size: 2.1em;
+    list-style: none !important;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 0.3em;
+    margin-left: 0.1em;
+}
+.liMenuShow:hover{
+    border: 1px solid #333;
+}
+/*#divFiliacao,#divEndereco,#divDadosPessoais,#divContato,#divDadosLotacao,#divInstrucao,#divDadosFinanceiros,*/
+/*#divDependentes,#divConjuge{*/
+    /*display: none;*/
+/*}*/
+
+.dropdown-menu.show li a {
+    color: #333 !important;
+}
+

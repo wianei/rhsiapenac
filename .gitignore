@@ -1,0 +1,6 @@
+/nbproject/private/
+/.env
+/storage/app/arquivos
+/vendor/
+/node_modules
+/public/arquivos
